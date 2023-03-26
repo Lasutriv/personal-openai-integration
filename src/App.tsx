@@ -14,9 +14,9 @@ function App() {
   const chatInput = useFormInput("");
   const imageInput = useFormInput("");
   const configuration = new Configuration({
-      organization: "org-Dm1vzOgeX1soXlV2Ayy9qcIG",
+      organization: process.env.REACT_APP_OPENAI_ORG_ID,
       // apiKey: process.env.OPENAI_API_KEY,
-      apiKey: "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",
+      apiKey: process.env.REACT_APP_OPENAI_API_KEY,
   });
   const openai = new OpenAIApi(configuration);
   const [openAIInput, setOpenAIInput] = React.useState("");
