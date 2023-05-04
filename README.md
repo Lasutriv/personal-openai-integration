@@ -1,3 +1,8 @@
+# Tanner Fry - Note
+
+This is a quick test app of integrating OpenAI into a React Typescript project. The single page app provides rudamentary styling and design to communicate with Chat GPT and to generate AI art.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
